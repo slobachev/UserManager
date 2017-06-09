@@ -5,7 +5,7 @@
             '@angular': 'node_modules/@angular',
             'app': './app',
             'angular2-in-memory-web-api': 'node_modules/angular2-in-memory-web-api',
-            'ng2-bs3-modal': 'npm:/ng2-bs3-modal'
+            'ng2-bs3-modal': 'node_modules/ng2-bs3-modal'
         },
         packages: {
             'app': {
