@@ -4,7 +4,8 @@
             'rxjs': 'node_modules/rxjs',
             '@angular': 'node_modules/@angular',
             'app': './app',
-            'angular2-in-memory-web-api': 'node_modules/angular2-in-memory-web-api'
+            'angular2-in-memory-web-api': 'node_modules/angular2-in-memory-web-api',
+            'ng2-bs3-modal': 'npm:/ng2-bs3-modal'
         },
         packages: {
             'app': {
@@ -60,6 +61,10 @@
             'rxjs': {
                 defaultExtension: 'js'
             },
+
+            'ng2-bs3-modal':
+            { main: '/bundles/ng2-bs3-modal.js', defaultExtension: 'js' },
+
 
             'angular2-in-memory-web-api': {
                 main: './index.js',
