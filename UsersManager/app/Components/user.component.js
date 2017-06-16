@@ -113,6 +113,10 @@ var UserComponent = (function () {
                 break;
         }
     };
+    UserComponent.prototype.criteriaChange = function (value) {
+        if (value != '[object Event]')
+            this.listFilter = value;
+    };
     return UserComponent;
 }());
 __decorate([
