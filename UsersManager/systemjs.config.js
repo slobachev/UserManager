@@ -5,7 +5,11 @@
             '@angular': 'node_modules/@angular',
             'app': './app',
             'angular2-in-memory-web-api': 'node_modules/angular2-in-memory-web-api',
-            'ng2-bs3-modal': 'node_modules/ng2-bs3-modal'
+            'ng2-bs3-modal': 'node_modules/ng2-bs3-modal',
+            '@angular/animations': 'node_modules/@angular/animations/bundles/animations.umd.js',
+            '@angular/animations/browser': 'node_modules/@angular/animations/bundles/animations-browser.umd.js',
+            '@angular/platform-browser/animations': 'node_modules/@angular/platform-browser/bundles/platform-browser-animations.umd.js',
+            '@angular/material': 'node_modules/@angular/material/bundles/material.umd.js'
         },
         packages: {
             'app': {
@@ -61,10 +65,6 @@
             'rxjs': {
                 defaultExtension: 'js'
             },
-
-            'ng2-bs3-modal':
-            { main: '/bundles/ng2-bs3-modal.js', defaultExtension: 'js' },
-
 
             'angular2-in-memory-web-api': {
                 main: './index.js',

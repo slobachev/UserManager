@@ -6,7 +6,7 @@ import { UserComponent } from './Components/user.component';
 const appRoutes: Routes = [
     { path: '', redirectTo: 'home', pathMatch: 'full' },
     { path: 'home', component: HomeComponent },
-    { path: 'users', component: UserComponent }
+    { path: 'user', component: UserComponent }
 ];
 
 export const routing: ModuleWithProviders =

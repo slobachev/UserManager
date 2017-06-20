@@ -16,9 +16,12 @@ var app_routing_1 = require("./app.routing");
 var home_component_1 = require("./Components/home.component");
 var user_service_1 = require("./Service/user.service");
 var user_component_1 = require("./Components/user.component");
-var ng2_bs3_modal_1 = require("ng2-bs3-modal/ng2-bs3-modal");
 var user_pipe_1 = require("./filter/user.pipe");
 var search_component_1 = require("./shared/search.component");
+var errorhandler_1 = require("./shared/errorhandler");
+var animations_1 = require("@angular/platform-browser/animations");
+var material_1 = require("@angular/material");
+var manageuser_component_1 = require("./Components/manageuser.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -26,9 +29,10 @@ var AppModule = (function () {
 }());
 AppModule = __decorate([
     core_1.NgModule({
-        imports: [platform_browser_1.BrowserModule, forms_1.ReactiveFormsModule, http_1.HttpModule, app_routing_1.routing, ng2_bs3_modal_1.Ng2Bs3ModalModule, forms_1.FormsModule],
-        declarations: [app_component_1.AppComponent, home_component_1.HomeComponent, user_component_1.UserComponent, user_pipe_1.UserFilterPipe, search_component_1.SearchComponent],
-        providers: [{ provide: common_1.APP_BASE_HREF, useValue: '/' }, user_service_1.UserService],
+        imports: [platform_browser_1.BrowserModule, forms_1.ReactiveFormsModule, http_1.HttpModule, app_routing_1.routing, forms_1.FormsModule, animations_1.BrowserAnimationsModule, material_1.MaterialModule, material_1.MdNativeDateModule],
+        declarations: [app_component_1.AppComponent, home_component_1.HomeComponent, user_component_1.UserComponent, user_pipe_1.UserFilterPipe, search_component_1.SearchComponent, manageuser_component_1.ManageUser],
+        providers: [{ provide: core_1.ErrorHandler, useClass: errorhandler_1.default }, { provide: common_1.APP_BASE_HREF, useValue: '/' }, user_service_1.UserService],
+        entryComponents: [manageuser_component_1.ManageUser],
         bootstrap: [app_component_1.AppComponent]
     })
 ], AppModule);

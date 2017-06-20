@@ -8,8 +8,8 @@ export class UserService {
 
     get(url: string): Observable<any> {
         return this._http.get(url)
-            .map((response: Response) => <any>response.json())
-            .catch(this.handleError);
+            .map((response: Response) => <any>response.json());
+        //.catch(this.handleError);
     }
 
     post(url: string, model: any): Observable<any> {
