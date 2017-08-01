@@ -3,7 +3,7 @@ A simple project using ASP.NET Web API and Angular 2
 Few screenshots
 
 -Main menu
-![alt text](http://imgur.com/a/5BvHq)
+![alt text](http://i.imgur.com/JtQTXjc.png)
 
 -Manager page
 -![alt text](http://imgur.com/a/kFX5B)
