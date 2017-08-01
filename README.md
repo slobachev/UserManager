@@ -3,13 +3,13 @@ A simple project using ASP.NET Web API and Angular 2
 Few screenshots
 
 -Main menu
-![alt text](https://ibb.co/nydrC5)
+![alt text](http://imgur.com/a/5BvHq)
 
 -Manager page
--![alt text](https://ibb.co/g3jv5Q)
+-![alt text](http://imgur.com/a/kFX5B)
 
 -Modal form
--![alt text](https://ibb.co/fBujzk)
+-![alt text](http://imgur.com/a/1PnU8)
 
 -Filtration
--![alt text](https://ibb.co/efViaQ)
+-![alt text](http://imgur.com/a/cQP21)
