@@ -6,10 +6,10 @@ Few screenshots
 ![alt text](http://i.imgur.com/JtQTXjc.png)
 
 -Manager page
--![alt text](http://imgur.com/a/kFX5B)
+-![alt text](http://i.imgur.com/2EUWWSA.png)
 
 -Modal form
--![alt text](http://imgur.com/a/1PnU8)
+-![alt text](http://i.imgur.com/iOkE06Z.png)
 
 -Filtration
--![alt text](http://imgur.com/a/cQP21)
+-![alt text](http://i.imgur.com/UAgOARq.png)
